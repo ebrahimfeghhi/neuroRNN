@@ -5,10 +5,12 @@ I am currently focusing on implementing Dale's principle and understanding its i
 
 To access the most up to date model, go to models/Neuro_RNN_JIT.py. Adaptive time constants and Dale's Principle are currently implemented. 
 
-All custom datasets can be found in the datasets folder, and follow Pytorch dataset class format. 
+All custom datasets can be found in the datasets folder and are written according to the Pytorch dataset class outline. 
 
 Modifications to the loss function, including Pascanu's regularization are in the modify_loss folder. 
 
 Functions to analyze the inner workings of a trained RNN are in the activity_analysis folder. Currently only
 the sequential activity metric written by Emin Orhan is in the folder. 
+
+To train an RNN run rnn_script.py.  
 
