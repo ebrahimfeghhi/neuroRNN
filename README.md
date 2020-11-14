@@ -1,16 +1,16 @@
 # neuroRNN
 This respository is intended to serve as a flexible framework for training biologically plausible RNNs.
-Some of the features I aim to provide are Dale's principle, adaptive time constants, and reciprocal connections between layers.
-I am currently focusing on implementing Dale's principle and understanding its impact.
+I have currently implemented Dale's principle and adaptive time constants, and I aim to provide other features 
+such as reciprocal connections between layers and spiking neurons in the future.
 
-To access the most up to date model, go to models/Neuro_RNN_JIT.py. Adaptive time constants and Dale's Principle are currently implemented. 
+To access the most up to date model, go to models/Neuro_RNN_JIT.py. 
 
 All custom datasets can be found in the datasets folder and are written according to the Pytorch dataset class outline. 
 
-Modifications to the loss function, including Pascanu's regularization are in the modify_loss folder. 
+Modifications to the loss function, including Pascanu's regularization, are in the modify_loss folder. 
 
-Functions to analyze the inner workings of a trained RNN are in the activity_analysis folder. Currently only
-the sequential activity metric written by Emin Orhan is in the folder. 
+Functions to analyze the inner workings of a trained RNN are in the activity_analysis folder. Currently there is only
+the sequential activity metric written by Emin Orhan from Orhan and Ma, Nat. Neuro (2013). 
 
-To train an RNN run rnn_script.py.  
+To train an RNN modify and run rnn_script.py.  
 
